@@ -20,27 +20,27 @@ O painel foi estruturado para responder a perguntas estratégicas complexas por 
 ### 1. Diagnóstico de Rentabilidade (Causa Raiz de Margem)
 * **O Desafio:** Identificar quedas na margem de lucro e suas causas reais (descartando o viés do volume de vendas).
 * **A Solução:** Utilizando medidas DAX com `DIVIDE(SUM(), SUM())`, isolei a margem percentual real. O dashboard revelou que a compressão severa de margem ocorrida no **Q3 de 2025 (27,21%)** não foi causada por frete ou queda de volume, mas sim por um salto crítico no **Custo do Produto**, que consumiu 72,47% da receita naquele trimestre.
-* *[Insira a Imagem 2 do Desafio 1 aqui]*
+ *<img width="1255" height="794" alt="Dash 1" src="https://github.com/user-attachments/assets/8b5269ec-25ec-4ed6-b961-eb6a660379eb" />*
 
 ### 2. Análise de Risco Logístico e Satisfação
 * **O Desafio:** Mapear a correlação entre atrasos/devoluções e a nota do cliente, cruzando com diferentes canais.
 * **A Solução:** Aplicação do modelo visual de *Small Multiples* (Múltiplos Pequenos) para segmentar as notas por Canal de Venda. A análise provou que a correlação é universal, independente do canal: a satisfação é impulsionada apenas por entregas no prazo, enquanto atrasos anulam as avaliações máximas.
-* *[Insira a Imagem do Desafio 2 aqui]*
+ *<img width="1153" height="791" alt="Dash 2" src="https://github.com/user-attachments/assets/ff0e60f3-9027-4b0b-8e0c-3a4664f3a012" />*
 
 ### 3. Princípio de Pareto (Curva ABC)
 * **O Desafio:** Identificar quais subcategorias geram 80% do lucro total da empresa.
 * **A Solução:** Desenvolvimento de um gráfico de Pareto com **Formatação Condicional Avançada**. Através de medidas DAX para cálculo de percentual acumulado, as barras mudam automaticamente de cor assim que a meta de 80% é atingida. O resultado revelou que 10 subcategorias (exclusivamente dos setores de Eletrônicos e Móveis) sustentam o negócio.
-* *[Insira a Imagem do Desafio 3 aqui]*
+ *<img width="1313" height="631" alt="Dash 3" src="https://github.com/user-attachments/assets/2edbb864-565d-469d-b7f8-5cd1d081e78a" />*
 
 ### 4. Simulação de Cenários (What-If Parameter)
 * **O Desafio:** Calcular o impacto financeiro (perda de receita e lucro) caso a empresa descontinue operações em regiões com margem de lucro abaixo de um limite definido pelo usuário.
 * **A Solução:** Criação de um parâmetro de simulação conectado ao modelo de vendas. Utilizando **Tabelas Virtuais e Transição de Contexto no DAX** (`CALCULATE` iterando com `VALUES(Regiao)`), o painel avalia a margem agregada de cada região antes de aplicar o corte. O mapa regional e os KPIs reagem instantaneamente, demonstrando de forma dinâmica a perda financeira real.
-* *[Insira a Imagem da tela corrigida do Desafio 4 aqui]*
+ *<img width="1312" height="738" alt="Dash 4" src="https://github.com/user-attachments/assets/4ed8ef40-f3cd-4265-b5dc-d1784fb1627e" />*
 
 ### 5. Mapeamento de Risco Regional
 * **O Desafio:** Diagnosticar problemas de devolução e cancelamento isolados na região Nordeste.
 * **A Solução:** Através de filtros sincronizados, a análise quebrou um viés macro. Enquanto no consolidado do Brasil os Eletrônicos lideram os problemas, o filtro específico do Nordeste revelou que o grande gargalo da região é a categoria de **Vestuário**, especificamente impulsionado por um risco atípico na modalidade de **Lojas Físicas**.
-* *[Insira a Imagem da tela corrigida do Desafio 5 aqui]*
+ *<img width="1315" height="740" alt="Dash 5" src="https://github.com/user-attachments/assets/e5cdf25f-2d57-45b9-a14b-039007284e76" />*
 
 ---
 
@@ -54,6 +54,18 @@ O painel foi estruturado para responder a perguntas estratégicas complexas por 
   * Storytelling com dados (uso de *Smart Narratives* e dicas de ferramentas personalizadas).
   * Design limpo (UI/UX), focado em usabilidade para tomada de decisão (sem poluição visual).
 
+---
+
+## 🎓 Formações e Certificações
+
+* **Certificado Profissional Google Data Analytics** – Coursera / Google (2026)
+* **Google Prompting Essentials (Inteligência Artificial)** – Coursera / Google (2026)
+* **Business Intelligence com Power BI** – Witseed (2025)
+* **Fundamentos de Python (Pandas, NumPy, EDA e ETL)** – Witseed (2025)
+* **Liderança, Planejamento e Gestão de Pessoas (90h)** – Instituto Educacional Aprender (2026)
+* **Excel Avançado** – Centro Educacional Brastemp (2024)
+
+---
 ---
 *Gostou do projeto ou tem alguma dúvida sobre as análises? Sinta-se à vontade para conectar-se comigo!*
 
