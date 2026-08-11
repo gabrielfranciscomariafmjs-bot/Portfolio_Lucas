@@ -42,6 +42,10 @@ O painel foi estruturado para responder a perguntas estratégicas complexas por 
 * **A Solução:** Através de filtros sincronizados, a análise quebrou um viés macro. Enquanto no consolidado do Brasil os Eletrônicos lideram os problemas, o filtro específico do Nordeste revelou que o grande gargalo da região é a categoria de **Vestuário**, especificamente impulsionado por um risco atípico na modalidade de **Lojas Físicas**.
  *<img width="1315" height="740" alt="Dash 5" src="https://github.com/user-attachments/assets/e5cdf25f-2d57-45b9-a14b-039007284e76" />*
 
+### 6. Autonomia Executiva com IA Integrada (Self-Service Analytics)
+* **O Desafio:** Eliminar o gargalo operacional e a dependência técnica do time de dados para responder a consultas analíticas pontuais (*ad-hoc*) da diretoria.
+* **A Solução:** Integração nativa de um agente inteligente (Copilot / Q&A) na interface do dashboard. Através de uma caixa de texto, o executivo tem a liberdade de interagir com o modelo de dados em linguagem natural. Essa aplicação prática de IA e recursos conversacionais empodera a gestão a realizar investigações independentes, extraindo insights, respostas precisas e gráficos instantâneos sem a necessidade de acionar um analista de dados.
+
 ---
 
 ## 🛠️ Tecnologias e Habilidades Aplicadas
@@ -53,6 +57,7 @@ O painel foi estruturado para responder a perguntas estratégicas complexas por 
   * *Sync Slicers* (Segmentadores sincronizados) para garantir fluidez na navegação executiva.
   * Storytelling com dados (uso de *Smart Narratives* e dicas de ferramentas personalizadas).
   * Design limpo (UI/UX), focado em usabilidade para tomada de decisão (sem poluição visual).
+  * **Inteligência Artificial & Self-Service Analytics:** Integração de recursos do Copilot para exploração de dados em linguagem natural, promovendo autonomia executiva.
 
 ---
 
